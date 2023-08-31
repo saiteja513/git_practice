@@ -34,3 +34,27 @@ we can add all the files using
 
 To commit our change:>
 git commit -m "your commit"
+
+To commit all the modified changes
+-git commit -am "now all the modified files will be commited"
+
+To push a commit:>
+git push
+
+To remove a particular file:>
+rm <file-name>.<exetension>
+
+To a file from one file to another file:>
+git mv file2.txt file1.txt
+
+To ignore any file to push to repo:>
+touch .gitignore
+
+To see files in staging area:>
+git ls-files
+
+To see the git history:>
+history
+
+To get the push requests to local repo:>
+git pull
