@@ -1,0 +1,36 @@
+To know version of your git use :>
+git --version
+
+Configuring git for the first time :>
+List of levels to configure:
+1 system
+2 global
+3 local
+
+git config --global user.name "teja"
+git config --global user.email "abc@gmail.com"
+
+Initialize the git repository:>
+git init
+
+list all in a director:>
+ls
+ls -a
+
+If you disturb the repository it will remove the git:>
+rm -rf .git
+(make sure you don't do this. this will lead to removing the git repo)
+
+To know the status:>
+git status
+
+To add:>
+we can add to git individually using
+- git add file1.txt file2.txt
+we can add all files with one extension at once using 
+- git add *.<extension>
+we can add all the files using
+- git add.
+
+To commit our change:>
+git commit -m "your commit"
